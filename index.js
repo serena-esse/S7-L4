@@ -61,7 +61,7 @@ function createCard({
 
   const img = document.createElement("img");
   img.classList.add("bd-placeholder-img", "card-img-top");
-  img.src = src.original;
+  img.src = src.medium;
 
   card.appendChild(img);
 
